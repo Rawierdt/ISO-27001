@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <!--Rawier 2023 - @Platzi-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Norma ISO 27001</title>
+    <link rel="shortcut icon" href="./src/ISO-Logo.png" type="image/x-icon">
+    <!--Styles-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+
+    <!--Google Fonts-->
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <img src="./src/ISO-Logo.png" alt="tomato" class="widthReduce">
+                <hr>
+                <h1 class="mainHeader">Norma ISO 27001</h1>
+                <button type="button" class="btn btn-outline-light btn-lg" id="whatIsButton">¿Que es iso 27001?</button>
+                <p class="whatIs">Esta norma internacional se ha preparado para proporcionar los requisitos para el establecimiento, implementación mantenimiento y mejora continua de un sistema de gestión de la seguridad de la información. <br> <br>
+                    <strong>Generalidades
+                        <br>
+                        - Puede ser utilizada por partes internas y externas para evaluar la capacidad de la organización para cumplir con sus propios requisitos de seguridad.
+                        <br>
+                        - Describe la versión de conjunto y el vocabulario de los sistemas de gestión de la SI.
+                        <br>
+                        - El orden en que la norma presenta los requisitos no indica su importancia ni implica el orden en el cual deben implementarse.
+                        <br>
+                        - Esta dividida 14 grupos con 114 controles de seguridad pero todo depende del tamaño de la empresa
+                        <br>
+                        - Hay una sección adicional sobre la sub-contratación</strong></p>
+                <button type="button" class="btn btn-outline-light btn-lg" id="contenido1Button">Contenido de la Norma</button>
+                <p class="contenido1">La organización debe determinar las cuestiones externas e internas que son importantes para su propósito y que afectan su capacidad para lograr los resultados provistos de sus sistemas de gestión de la seguridad de la información.
+                    <br>
+                    - Comprensión de la organización y de su Contexto: Tener muy claro como mi SGSI apoya a la organización en otras palabras observar la empresa y su entorno antes de plantear sugerencias
+                    <br>
+                    - Liderazgo: La alta dirección debe demostrar liderazgo y compromiso con respecto al sistema de gestión de la seguridad de la información.
+                    <br>
+                    - Planificación: Al planificar la organización debe asegurar que el SGSI pueda conseguir sus resultados previstos y lograr la mejora continua.</p>
+                <hr>
+                <button type="button" class="btn btn-outline-light btn-lg" id="contenido2Button">Composición del Anexo A</button>
+                <p class="contenido2"><strong>1. Políticas de Seguridad de la Información:</strong> hace referencia a los controles sobre cómo escribir y revisar políticas de seguridad.
+                    <br>
+                    <strong>2. Organización de la Seguridad de la información:</strong> los controles se encargan de establecer responsables. Al mismo tiempo también se centra en dispositivos móviles y situaciones como la de teletrabajo.
+                    <br>
+                    <strong>3. Seguridad de los Recursos Humanos:</strong> controles para las situaciones previas y posteriores referentes a la contratación y finalización de contrato de personal.
+                    <br>
+                    <strong>4. Gestión de Recursos (OBLIGATORIO) :</strong> establecidos para realizar inventario, clasificación de información y manejo de los medios de almacenamiento.
+                    <br>
+                    <strong>5. Control de Acceso (OBLIGATORIO) :</strong> control del acceso tanto a la información como a aplicaciones u otro medio que contenga información.
+                    <br>
+                    <strong>6. Criptografía (OBLIGATORIO) :</strong> controles para gestionar encriptación de información.
+                    <br>
+                    <strong>7. Seguridad física y ambiental (OBLIGATORIO) :</strong> controles para garantizar factores externos, seguridad de equipo y medios que puedan comprometer la seguridad.
+                    <br>
+                    <strong>8. Seguridad Operacional (OBLIGATORIO) :</strong> controles relacionados con gestión de la protección de malware o vulnerabilidades.
+                    <br>
+                    <strong>9. Seguridad de las comunicaciones (OBLIGATORIO) :</strong> Control sobre la seguridad de las redes, transmisión de información, mensajería…
+                    <br>
+                    <strong>10. Adquisición, desarrollo y mantenimiento de Sistemas (OBLIGATORIO) :</strong> controles que establecen los requisitos de seguridad en desarrollo y soporte.
+                    <br>
+                    <strong>11. Relaciones con los proveedores:</strong> incluye lo necesario a la hora de realizar contratos y seguimiento a proveedores.
+                    <br>
+                    <strong>12. Gestión de Incidentes en Seguridad de la Información:</strong> sirven para reportar eventos las debilidades, así como procedimientos de respuesta.
+                    <br>
+                    <Strong>13. Aspectos de Seguridad de la Información de la Gestión de la Continuidad del Negocio:</Strong> referidos a la planificación de continuidad de negocio.
+                    <br>
+                    <strong>14. Cumplimiento:</strong> control relacionado a la hora de identificar regulaciones relacionadas con seguridad de la información y hacer que se cumplan.</p>
+                <button type="button" class="btn btn-outline-light btn-lg" id="contenido3Button">Declaración de Aplicabilidad</button>
+                <p class="contenido3">También conocido como SoA (SoA por las siglas en inglés de Statement of Applicability), es un documento generado a partir del análisis de riesgos realizado. Sin embargo, es importante mencionar que si la organización pretende implementar un sistema de gestión de seguridad de la información, pero no está interesada en alcanzar la conformidad total con ISO 27001, ni tiene entre sus planes obtener la certificación, la Declaración de Aplicabilidad no es obligatoria, se trata de un documento que enlista los controles de seguridad establecidos en el Anexo A (114 controles) que has decidido aplicar o implementar dentro de tu Sistema de Gestión de Seguridad de la Información. <br> <br></p>            
+                <button type="button" class="btn btn-outline-light btn-lg" id="contenido4Button">¿Qué es auditoria?</button>
+                <div class="contenido4">Proceso sistemático, independiente, documentado, para obtener evidencia y evaluarla objetivamente, para determinar que tanto se cumplen los criterios de la auditoria.
+                    <br>
+                    <strong>Sistemático:</strong> Planeado
+                    <br>
+                    <strong>Independiente:</strong> El auditor es libre de elegir el área a auditar.
+                    <br>
+                    <strong>Documentado:</strong> Que tenga un soporte escrito.
+                    <br>
+                    <strong>Evidencia:</strong> Corroborar la veracidad de lo indicado por el auditado.
+                    <br>
+                    <strong>Se cumplen: </strong>Verificar las tareas realizadas.
+                    <br>
+                    <strong>Evaluarla objetivamente:</strong> Capacidad técnica por parte del auditor.
+                    <br>
+                    <strong>Criterios de auditoria:</strong> Que se va revisar específicamente
+                    <br>
+                    <strong>Tipos de Auditoria:</strong> 
+                    Interna: - Dentro de la organización. de primera parte.
+                    Externa: - Internacionales. de segunda y tercera parte.(cada año). <br> <br></div>
+                    <hr>
+                <button type="button" class="btn btn-outline-light btn-lg" id="contenido5Button">Términos de Auditoría</button>
+                <div class="contenido5">
+                    <strong>Evidencia:</strong> Registro de información verificable.
+                    <br>
+                    <strong>Cliente:</strong> Dueño del proceso, auditado.
+                    <br>
+                    <strong>Auditor:</strong> Quien lleva a cabo el proceso de auditar.
+                    <br>
+                    <strong>Auditado:</strong> Organización que esta siendo auditada
+                    <br>
+                    <strong>Programa de Auditoría</strong> Programa de auditorias con alcance de un año.
+                    <br>
+                    <strong>Alcance:</strong> Definir al inicio del proceso, hasta donde va a llegar la auditoria, teniendo claros los recursos disponibles.
+                    <br>
+                    <strong>Conclusiones:</strong> Resultado de la auditoria considerando los objetivos y hallazgos.
+                    <br>
+                    <strong>Hallazgos:</strong>Evidencia, señalización de algunas inconformidades a mejor y levantar.</div> 
+                <button type="button" class="btn btn-outline-light btn-lg" id="contenido6Button">Fases de una Auditoría</button>
+                <div class="contenido6">
+                    1. Preparación de la auditoria
+                    <br>
+                    2. Plan de auditoria - Lista de Verificación
+                    <br>
+                    3. Reunión de apertura
+                    <br>
+                    4. Identificación de riesgos
+                    <br>
+                    5. Ejecución (Trabajo de campo)
+                    <br>
+                    6. Presentación Hallazgos
+                    <br>
+                    7. Emisión informe borrador
+                    <br>
+                    8. Solicitud de planes de acción
+                    <br>
+                    9. Emisión de informe oficial
+                    <br>
+                    10. Seguimiento planes de acción</div>
+                <button type="button" class="btn btn-outline-light btn-lg" id="contenido7Button">Resultado de la Auditoría</button>
+                <div class="contenido7">
+                    <strong>De: </strong> 
+                    <table class="table">
+                        <tbody>
+                                <td>Conformidad</td>
+                                <td>Cumplimiento</td>
+                                <td>No Conformidad</td>
+                                <td>Incumplimiento</td>    
+                        </tbody>
+                    </table>
+                    <br>
+                    <strong>Incumplimientos más comunes: </strong> 
+                    <table class="table2">
+                        <tbody>
+                                <td>Documentación no encontrada </td>
+                                <td>Competencias de recurso humano no evaluado-controles implementados adecuadamente</td>
+                                <td>No conformidades por auditorias internas sin cierre eficaz</td>
+                                <td>Acciones correctivas sin revisión de la dirección </td>  
+                                <td>Deficiencia en metodología de análisis de riesgos</td>
+                                <td>Incumplimiento de procedimientos</td>  
+                        </tbody>
+                    </table>
+                    <strong>Reporte de no conformidadesLa evidencia: </strong> Lista de hallazgos, respaldos con evidencia objetiva o atestiguada por el auditor.
+                    <br>
+                    <strong>La referencia: </strong> Al requisito de la norma y/o manual de calidad o procedimiento. Un requisito a la vez, el que mas aplica.
+                    <br>
+                    <strong>La Conclusión: </strong>Genérica, breve, precisa y aceptada por el auditado. <br>     
+                </div>
+                <button type="button" class="btn btn-outline-light btn-lg" id="contenido8Button">¿Qué es un BCP y BIA?</button>
+                <div class="contenido8">
+                    <strong>¿Qué es un BCP? </strong>(PCN) Business Continuity Plan: Conjunto de procedimientos y estrategias definidas para asegurar la reanudación oportuna y ordenada de los procesos de negocio generando un impacto mínimo o nulo ante un evento de máxima afectación. 
+                    <br>
+                    Nota: Continuidad de la operación sin tecnología el DRP es parte de BCP.
+                    <br>
+                    <strong>¿Qué es BIA? </strong>Business Impact Analysis Permite identificar con claridad los procesos misionales de cada organización y analizar el nivel de impacto con relación a la gestión del negocio. Factores Claves RTO(Recovery Time Objective). Es el tiempo transcurrido entre una interrupción y la recuperación del servicio. Indica el tiempo disponible para recuperar sistemas y recursos interrumpidos. 
+                    <br>
+                    RPO(Recovery Point Objective). Es el rango de tolerancia que la entidad puede tener sobre la perdida de datos y el evento de desastre.   
+                </div>                         
+            </div>
+        </div>
+    </div>
+    <br>
+    <a href="https://docs.google.com/forms/d/e/1FAIpQLSe_CI7cE6lUa56EEDGKZ0Apwm30b0DiRCxTtLgrsvVmAmC42g/viewform" target="_blank">Examen Simulacro</a>
+    |
+    <a href="https://www.iso.org/members.html" target="_blank">ISO - Members</a>
+    |
+    <a href="https://www.behance.net/gallery/110905095/ISO-27001" target="_blank">ISO 27001 - Diapositivas de Sanchez Garcia D.</a>
+    <hr>
+    <footer>
+        <p>Creado por: <a href="https://rawier.vercel.app/es" target="_blank">Rawier</a> - © 2023 <a href="https://platzi.com" target="_blank">@Platzi</p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
