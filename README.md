@@ -5,7 +5,7 @@
 ![IMG](./src/preview.png)
 
 # Go to the page
-- [ISO 27001]([./github/FUNDING.yml](https://rawierdt.github.io/iso-27001/))
+- [ISO 27001](https://rawierdt.github.io/iso-27001/)
 
 or
 
